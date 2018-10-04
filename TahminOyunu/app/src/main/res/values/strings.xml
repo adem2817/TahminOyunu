@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TahminOyunu</string>
+    <string name="buyuk">Daha Büyük</string>
+    <string name="kucuk">Daha Küçük</string>
+    <string name="basari">KAZANDINIZ !!</string>
+    <string name="yeniden">YENİDEN BAŞLADINIZ !!</string>
+    <string name="puan">PUANINIZ</string>
+    <string name="elendin">ELENDİNİZ</string>
+
+</resources>

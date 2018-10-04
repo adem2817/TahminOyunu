@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="191dp"
+        android:layout_height="233dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/thinking" />
+
+    <Button
+        android:id="@+id/buttonTemizle"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/buttonTahmin"
+
+        android:text="TEMİZLE" />
+
+    <Button
+        android:id="@+id/buttonTahmin"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editTahmin"
+
+        android:text="Tahmin gir" />
+
+
+    <TextView
+        android:id="@+id/textUyari"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="99dp"
+        android:text="SONUÇ"
+        android:textColor="@android:color/background_light"
+        android:textSize="40dip" />
+
+    <TextView
+        android:id="@+id/textPuan"
+        android:layout_width="182dp"
+        android:layout_height="42dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp"
+        android:text="Puanlamanız"
+        android:textColor="@android:color/background_light"
+        android:textSize="30dip" />
+
+    <EditText
+        android:id="@+id/editTahmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ems="10"
+        android:hint="Tahmin Giriniz"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/background_light"
+        android:textColorLink="@color/colorAccent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="192dp"
+        android:layout_height="232dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/buttonTemizle"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/thinking" />
+</RelativeLayout>
